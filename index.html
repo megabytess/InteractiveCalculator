@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge /">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0" />
+        <title>Document</title>
+        </head>
+        <link rel="stylesheet" href ="style.css">
+        <body>
+            <h1>My Calculator</h1>
+
+<form>
+  <div class = "from-group">
+    <label>First Number <br></label>
+  <input type="text" id = "Firstnum"><br><br>
+</div>
+
+<div class = "from-group">
+  <label>Second Number <br></label>
+  <input type="text" id = "Secnum"><br><br>
+</div>
+</form>       
+ 
+        
+     <div class="center">
+        <button class="btn" type="submit" onclick="addition()">ADD</button>
+        <button class="btn" type="submit" onclick="subtraction()">SUBTRACK</button>
+        <button class="btn" type="submit" onclick="multiplication()">MULTIPLY</button>
+        <button class="btn" type="submit" onclick="division()">DIVIDE</button>
+      </div>
+
+<h2 id="answer" text-align ="center"></h2>
+
+    <div>
+        <button class="btn" type="add" onclick="darkMode()">Darkmode</button>
+      </div>
+      <script src="InteractiveCalc.js"></script>
+        
+        </body>
+        </html>
